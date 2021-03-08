@@ -6,17 +6,43 @@
      waypoint, Xcode will simulate that specific location. If you provide multiple waypoints,
      Xcode will simulate a route visiting each waypoint.
      -->
-    <wpt lat="37.331705" lon="-122.030237">
-        <name>Cupertino</name>
-        
-        <!--
-         Optionally provide a time element for each waypoint. Xcode will interpolate movement
-         at a rate of speed based on the time elapsed between each waypoint. If you do not provide
-         a time element, then Xcode will use a fixed rate of speed.
-         
-         Waypoints must be sorted by time in ascending order.
-         -->
-        <time>2014-09-24T14:55:37Z</time>
+    <wpt lat="39.11103564996407" lon="117.170495892119">
+        <time>2014-09-24T14:55:00Z</time>
     </wpt>
-    
+    <wpt lat="39.110906791528656" lon="117.17050102977993">
+        <time>2014-09-24T14:55:05Z</time>
+    </wpt>
+    <wpt lat="39.11072096088478" lon="117.17050122111633">
+        <time>2014-09-24T14:55:10Z</time>
+    </wpt>
+    <wpt lat="39.11061603241571" lon="117.17049632427552">
+        <time>2014-09-24T14:55:15Z</time>
+    </wpt>
+    <wpt lat="39.110494143265704" lon="117.17049644905934">
+        <time>2014-09-24T14:55:20Z</time>
+    </wpt>
+    <wpt lat="39.11045222451467" lon="117.17050550006047">
+        <time>2014-09-24T14:55:25Z</time>
+    </wpt>
+    <wpt lat="39.11040326898931" lon="117.17050555003397">
+        <time>2014-09-24T14:55:30Z</time>
+    </wpt>
+    <wpt lat="39.110392259818944" lon="117.1705015576318">
+        <time>2014-09-24T14:55:35Z</time>
+    </wpt>
+    <wpt lat="39.110312178619424" lon="117.17046961035659">
+        <time>2014-09-24T14:55:40Z</time>
+    </wpt>
+    <wpt lat="39.11027334378112" lon="117.17049667422185">
+        <time>2014-09-24T14:55:45Z</time>
+    </wpt>
+    <wpt lat="39.11017543257736" lon="117.170496773699">
+        <time>2014-09-24T14:55:50Z</time>
+    </wpt>
+    <wpt lat="39.110056583413986" lon="117.17050590230576">
+        <time>2014-09-24T14:55:55Z</time>
+    </wpt>
+    <wpt lat="39.11014446065041" lon="117.1704968051185">
+        <time>2014-09-24T14:56:00Z</time>
+    </wpt>
 </gpx>

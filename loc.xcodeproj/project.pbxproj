@@ -49,6 +49,8 @@
 		3CE1833A2575C38D00661251 /* locUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CE1833E2575C38D00661251 /* locUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locUITests.swift; sourceTree = "<group>"; };
 		3CE183402575C38D00661251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CE1834F2575C3B400661251 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
+		3CFA603F257B927000C6E49C /* run.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = run.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,8 @@
 				3CE1831C2575C38C00661251 /* AppDelegate.swift */,
 				3CE1831E2575C38C00661251 /* SceneDelegate.swift */,
 				3CE183202575C38C00661251 /* ContentView.swift */,
+				3CE1834F2575C3B400661251 /* Location.gpx */,
+				3CFA603F257B927000C6E49C /* run.gpx */,
 				3CE183222575C38D00661251 /* Assets.xcassets */,
 				3CE183272575C38D00661251 /* LaunchScreen.storyboard */,
 				3CE1832A2575C38D00661251 /* Info.plist */,
