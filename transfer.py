@@ -1,4 +1,12 @@
-# -*coding: UTF-8 *-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+
+# @Author: hukelin
+ 
+'''
+百度坐标转换
+'''
 import json
 import urllib
 import math
@@ -94,7 +102,7 @@ def gcj02_to_wgs84(lng, lat):
  
 def bd09_to_wgs84(bd_lon, bd_lat):
     lon, lat = bd09_to_gcj02(bd_lon, bd_lat)
-    return gcj02_to_wgs84(lon,lat)
+    return gcj02_to_wgs84(lon, lat)
  
  
 def wgs84_to_bd09(lon, lat):
@@ -136,8 +144,8 @@ def out_of_china(lng, lat):
     return not (lng > 73.66 and lng < 135.05 and lat > 3.86 and lat < 53.55)
  
  
-pathIn = r"address.txt"
-pathOut = r"result_ouput.txt"
+pathIn = r"input.txt"
+pathOut = r"output.txt"
 result = []
 count = 0
 if __name__ == '__main__':
@@ -148,11 +156,16 @@ if __name__ == '__main__':
             lng.append(float(tmp[0]))
             lat.append(float(tmp[1]))
     try:
+        f.writelines("<?xml version=\"1.0\"?>\n<gpx version=\"1.1\" creator=\"Xcode\">")
         for i in range(len(lng)):
             converted = bd09_to_wgs84(lng[i], lat[i])
+            text="<wpt lat=\""+str(converted[1])+" lon=\""+str(converted[0])+"\">"
             with open(pathOut, 'a') as f:
-                print(str(converted))
-                f.writelines(str(converted) + "\n")
+                print(text)
+                hour=count//720
+                minute=(count-hour*720)//12
+                second=(count-hour*720-minute*12)*5
+                f.writelines(text + "\n"+"    <time>2014-09-24T14:"+"%02d:" %minute+"%02d" %second+"Z</time>"+"\n"+"</wpt>"+"\n")
                 count += 1
             print("第" + str(count) + "条数据写入成功...")
     except Exception as err:
