@@ -15,6 +15,7 @@
 		3CE183292575C38D00661251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CE183272575C38D00661251 /* LaunchScreen.storyboard */; };
 		3CE183342575C38D00661251 /* locTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE183332575C38D00661251 /* locTests.swift */; };
 		3CE1833F2575C38D00661251 /* locUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CE1833E2575C38D00661251 /* locUITests.swift */; };
+		D37068AE2935E3CF00BA7658 /* run.gpx in Resources */ = {isa = PBXBuildFile; fileRef = D37068AD2935E3CF00BA7658 /* run.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +51,7 @@
 		3CE1833E2575C38D00661251 /* locUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locUITests.swift; sourceTree = "<group>"; };
 		3CE183402575C38D00661251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CE1834F2575C3B400661251 /* Location.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
-		3CFA603F257B927000C6E49C /* run.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = run.gpx; sourceTree = "<group>"; };
+		D37068AD2935E3CF00BA7658 /* run.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = run.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +106,7 @@
 				3CE1831E2575C38C00661251 /* SceneDelegate.swift */,
 				3CE183202575C38C00661251 /* ContentView.swift */,
 				3CE1834F2575C3B400661251 /* Location.gpx */,
-				3CFA603F257B927000C6E49C /* run.gpx */,
+				D37068AD2935E3CF00BA7658 /* run.gpx */,
 				3CE183222575C38D00661251 /* Assets.xcassets */,
 				3CE183272575C38D00661251 /* LaunchScreen.storyboard */,
 				3CE1832A2575C38D00661251 /* Info.plist */,
@@ -246,6 +247,7 @@
 				3CE183292575C38D00661251 /* LaunchScreen.storyboard in Resources */,
 				3CE183262575C38D00661251 /* Preview Assets.xcassets in Resources */,
 				3CE183232575C38D00661251 /* Assets.xcassets in Resources */,
+				D37068AE2935E3CF00BA7658 /* run.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +444,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"loc/Preview Content\"";
-				DEVELOPMENT_TEAM = 9RQZS3DJ5W;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = loc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -463,7 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"loc/Preview Content\"";
-				DEVELOPMENT_TEAM = 9RQZS3DJ5W;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = loc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
